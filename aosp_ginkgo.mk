@@ -36,6 +36,7 @@ ARCANA_OFFICIAL := true
 ARCANA_DEVICE := ginkgo
 ARCANA_MAINTAINER := _.rasend
 WITH_GAPPS := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier
 PRODUCT_NAME := aosp_ginkgo
