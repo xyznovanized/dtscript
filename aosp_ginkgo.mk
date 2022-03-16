@@ -49,8 +49,8 @@ DEVICE_MAINTAINER := Adithya (ghostrider_reborn)
 
 
 # Fingerprint
-BUILD_FINGERPRINT := google/raven/raven:12/SQ1D.220205.004/8151327:user/release-keys
-BUILD_DESCRIPTION := raven-user 12 SQ1D.220205.004 8151327 release-keys
+BUILD_FINGERPRINT := google/raven/raven:12/S3B1.220218.004/8242181:user/release-keys
+BUILD_DESCRIPTION := raven-user 12 S3B1.220218.004 8242181 release-keys
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
