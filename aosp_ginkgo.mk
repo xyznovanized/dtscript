@@ -48,12 +48,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 DEVICE_MAINTAINER := Adithya (ghostrider_reborn)
 
 
-# Fingerprint
-BUILD_FINGERPRINT := google/raven/raven:12/S3B1.220218.004/8242181:user/release-keys
-BUILD_DESCRIPTION := raven-user 12 S3B1.220218.004 8242181 release-keys
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=$(BUILD_FINGERPRINT)
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="$(BUILD_DESCRIPTION)"
