@@ -32,9 +32,8 @@ $(call inherit-product, vendor/aosp/config/common.mk)
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 RELAX_USES_LIBRARY_CHECK := true
 
-ARCANA_OFFICIAL := true
 ARCANA_DEVICE := ginkgo
-ARCANA_MAINTAINER := _.rasend
+ARCANA_MAINTAINER := Architecture
 WITH_GAPPS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_NOW_PLAYING := true
